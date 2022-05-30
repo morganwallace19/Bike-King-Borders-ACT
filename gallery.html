@@ -1,0 +1,159 @@
+<!-- Morgan Wallace -->
+<!-- Bike King Borders Gallery Page -->
+<!-- Web Technologies -->
+<!-- 21/11/2020 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f6a9539d15.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/gallerystyles.css">
+    <title>Bike King Borders</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+</head>
+    <body id="home">
+        <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+            </div>
+
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html"><img src="images/logo.jpg" alt="" class="logo"></a>
+                <ul class="nav">
+                    <li><a href="shop.html">Store</a></li>
+                    <li><a href="hire.html">Hire</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="local.html">Local</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Showcase-->
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h2>Welcome to Gallery</h2>
+            </div>
+            <img src="images/david-marcu-VfUN94cUy4o-unsplash.jpg" alt="" />
+        </div>
+    </section>
+
+        <!-- Overlay Text -->
+    <section class="section-a-gallery">
+        <div class="gallery-overlay">
+            <div class="section-a-inner">
+              <h3>Gallery</h3>  
+              <p>This is where you will find our excellent photography of bikes.</p>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!-- Gallery -->
+    <section class="section-b">
+        <div style="text-align: center;">
+            <h4>Welcome to our gallery. Feel free to have a look through.</h4>
+        </div>
+        <br>
+        <div class="gallery">
+            <a class="image"><img src="images/pierre-pavlovic-0E-HiQaZ9KE-unsplash new.jpg"></a>
+            <a class="image"><img src="images/pexels-picography-4472.jpg"></a>
+            <a class="image"><img src="images/bayo-adegunloye-OhjUUvbwpNw-unsplash.jpg"></a>
+            <a class="image"><img src="images/daniel-llorente-QFEZc453y70-unsplash.jpg"></a>
+            <a class="image"><img src="images/david-marcu-VfUN94cUy4o-unsplash.jpg"></a>
+            <a class="image"><img src="images/everton-vila-AsahNlC0VhQ-unsplash.jpg"></a> 
+        </div>
+
+        <!-- These are the div classes where the images would move in a lightbox gallery -->
+            <div class="preview-box">
+                <div class="details">
+                    <span class="title2">
+                        Image <p class="current-img"></p>
+                        of <p class="total-img"></p>
+                    </span>
+                    <span class="icon fas fa-times"></span>
+                </div>
+                <div class="img-box">
+                    <div class="slide prev">
+                        <i class="fas fa-angle-left"></i>
+                    </div>
+                    <div class="slide next">
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <img src="" alt="">
+                </div>
+            </div>
+            
+            <div class="shadow"></div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+ <footer class="section-footer">
+    <div class="container">
+        <div>
+            <h2>Follow Us</h2>
+            <br>
+            <a href="http://twitter.com">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="http://facebook.com">
+                <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="http://youtube.com">
+                    <i class="fab fa-youtube fa-2x"></i>
+                    </a>
+        </div>
+        <div>
+            <h3>Company Info</h3>
+            <ul>
+                <li><a href="shop.html">All Products</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Address + Phone No</h3>
+            <ul>
+            <li><a href="#">123 Wheel Drive</a></li>
+            <li><a href="#">Galashields TD1 1BD</a></li>
+            <li><a href="#">0123 567 567</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Opening Times</h3>
+            <ul>
+                <li><a href="#">Monday to Saturday: 9am-6pm</a></li>
+                <li><a href="#">Sunday: 10am-5pm</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Subscribe</h3>
+            <p>Subscribe to our newsletter.</p>
+            <div class="email-form">
+                <form name="email-form" method="POST" action="#" data-netlify="true">
+                <span class="form-control-wrap">
+                    <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email">
+                </span>
+                <button type="submit" class="form-control submit">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </form>
+            </div>
+        </div>
+        </div>
+        <div id="status"></div>
+     </footer>
+
+
+
+
+     <!-- JavaScript -->
+<script src="js/script.js"></script>  
+</html>
